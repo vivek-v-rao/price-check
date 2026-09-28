@@ -204,10 +204,6 @@ python xprice_check.py SPY --providers yahoo tiingo \
     --write-discrepancies spy_discrepancies.csv
 ```
 
-## Notes on redistribution
-
-Provider licenses can restrict redistribution of historical market data. This program downloads and compares data for local analysis; review each provider's license before publishing provider data or consensus files.
-
 ## Pairwise provider ratios
 
 When `--out-dir` is used, add `--write-ratios` to append pairwise provider ratios to each `SYMBOL_all_providers.csv` file. Raw provider columns remain first, followed by columns such as:
