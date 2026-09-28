@@ -47,7 +47,7 @@ python xprice_check.py SPY --providers yahoo tiingo --start 2005-01-01
 
 ## Multiple symbols
 
-Several symbols can be checked in one run using the same bracketed syntax as the trading programs:
+Several symbols can be checked in one run by enclosing them in brackets:
 
 ```bash
 python xprice_check.py [SPY TIP] --providers yahoo tiingo --start 2005-01-01
